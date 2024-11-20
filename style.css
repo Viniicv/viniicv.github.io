@@ -315,7 +315,7 @@ footer p {
     }
 
     .carousel {
-        width: 90%;
+        width: 90%; 
     }
 
     .skills-container {
@@ -328,11 +328,11 @@ footer p {
     }
 
     .section {
-        padding: 40px 15px;
+        padding: 40px 15px; 
     }
 
     h2 {
-        font-size: 2rem;
+        font-size: 2rem; 
     }
 
     p {
@@ -340,7 +340,7 @@ footer p {
     }
 
     form {
-        width: 100%;
+        width: 100%; 
     }
 
     footer {
@@ -361,3 +361,4 @@ footer p {
         font-size: 1.5rem;
     }
 }
+
