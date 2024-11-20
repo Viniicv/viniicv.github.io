@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Meu Portfólio </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>About</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">Sobre mim</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <div class="about-header">
+                <h2>Caio Vinicius</h2>
+                <p class="subtitle">Caio, um estudante de Análise e Desenvolvimento de Sistemas (ADS) na Universidade Tiradentes.</p>
+            </div>
+            
+            <div class="about-text">
+                <p>Atualmente cursando o segundo período. Com um inicio em desenvolvimento de soluções digitais, Caio está em uma jornada acadêmica voltada para a criação de sistemas eficientes e inovadores.</p>
+                <p>Seu interesse por programação e desenvolvimento de software é um reflexo da busca por aprimorar suas habilidades técnicas e oferecer soluções práticas para os desafios da área. Além disso, sua formação no curso de ADS lhe proporciona uma visão ampla sobre a construção e gestão de sistemas, desde a análise até a implementação de soluções tecnológicas que atendem às necessidades de usuários e empresas.</p>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projetos</h2>
+            <div class="carousel">
+                <button class="carousel-btn prev-btn">&lt;</button>
+                <div class="carousel-track-container">
+                    <ul class="carousel-track">
+                        <li class="carousel-item">
+                            <h3>SULFIT</h3>
+                            <img src="./img/sulfit.png" alt="Logo Sulfit">
+                            <p>Saúde • Bem-estar • Fitness</p>
+                            <p>Com foco em Saúde, Bem-estar e fitness, site desenvolvido pensando no corpo e no desenvolvimento pessoal</p>
+                        </li>
+                        <li class="carousel-item">
+                            <h3>HARPIA</h3>
+                            <img src="./img/harpia.png" alt="Logo With Eyes on the Globe">
+                            <p>O protótipo de aplicativo mobile de monitoramento de clima foca em alertas em tempo real sobre condições meteorológicas e desastres naturais, como furacões, secas e inundações. Além disso, o app facilita a venda de créditos de carbono de regiões afetadas por desastres ou pelo excesso de emissões, conectando empresas e indivíduos para compensação ambiental. A plataforma oferece dados de satélites e sensores locais, além de uma interface simples para monitoramento de projetos de sustentabilidade, incentivando ações contra as mudanças climáticas e apoiando a recuperação de áreas devastadas.</p>
+                        </li>
+                        <li class="carousel-item doe-se-card">
+                            <h3>DOE-SE</h3>
+                            <img src="./img/DOE-SE.png" alt="Logo DOE-SE">
+                            <p>Participando projeto em SQUAD criação de um site de doações</p>
+                            <p>O site facilita a doação de itens de forma simples e acessível, com uma interface intuitiva para usuários sem experiência em tecnologia. Ele permite o cadastro rápido de itens, como roupas, alimentos e móveis, e conecta os doadores a organizações ou pessoas necessitadas. Com categorias claras e uma busca fácil, qualquer pessoa pode fazer doações de maneira prática. A plataforma também oferece tutoriais e suporte para garantir que todos possam contribuir de forma descomplicada.</p>
+                        </li>
+                        
+                    </ul>
+                </div>
+                <button class="carousel-btn next-btn">&gt;</button>
+            </div>
+        </div>
+    </section>
+    
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <h3>HTML</h3>
+                    <p>HTML estrutura páginas web com tags para organizar conteúdo, melhorando a acessibilidade e a otimização nos motores de busca. Boas práticas tornam o código mais eficiente e fácil de manter.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>CSS</h3>
+                    <p>CSS estiliza páginas web, controlando elementos como cores, fontes e layouts para melhorar a aparência e a experiência do usuário.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>JavaScript</h3>
+                    <p> Com conhecimento em JavaScript básico que adiciona interatividade, tornando a página dinâmica e responsiva. Ambos são essenciais para melhorar a experiência do usuário.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+<section id="contact" class="section">
+    <div class="container">
+        <h2>Contato</h2>
+        <form id="contact-form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</section>
+
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Caio Vinicius Horacio Silva</p>
+            <p>Email: caio.horacio@souunit.com</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
