@@ -8,7 +8,7 @@ O site reúne experiências e trabalhos relacionados ao desenvolvimento de siste
 
 ## Sobre mim
 
-Sou formado em **Análise e Desenvolvimento de Sistemas pela Universidade Tiradentes (UNIT)** e atuo no setor de planejamento da Companhia de Desenvolvimento Regional de Sergipe.
+Sou Caio Vinicius, formado em **Análise e Desenvolvimento de Sistemas pela Universidade Tiradentes (UNIT)** e atuo no setor de planejamento da Companhia de Desenvolvimento Regional de Sergipe.
 
 Tenho interesse em desenvolvimento de soluções tecnológicas, análise de dados e inteligência artificial. Busco aplicar a tecnologia para otimizar processos, organizar informações e solucionar problemas reais.
 
